@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHP_Calendar", "PHP_Calendar.phpproj", "{29714706-E902-4C7C-B254-D370E0492BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29714706-E902-4C7C-B254-D370E0492BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29714706-E902-4C7C-B254-D370E0492BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29714706-E902-4C7C-B254-D370E0492BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29714706-E902-4C7C-B254-D370E0492BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46F38AAC-5F24-4D37-83E0-C72DA5F1B8A0}
+	EndGlobalSection
+EndGlobal
