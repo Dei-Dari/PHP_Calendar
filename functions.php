@@ -4,19 +4,14 @@
 
 function monthCalendar($m)
 {
-
     $thisYear = date("Y");
     $day = 1;
-    $date = strtotime("$day/$m/$thisYear");
+    $date = strtotime("$m/$day/$thisYear");
     $nameMonth = date("F", $date);
     $dayWeek = date("N", $date);
     $numberDaysMonth = date("t", $date);
 
-
-    return $calendar = [$nameMonth, $dayWeek, $numberDaysMonth];
-
-
-
+    return [$nameMonth, $dayWeek, $numberDaysMonth, $thisYear];
 }
 
 
